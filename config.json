@@ -1,0 +1,10 @@
+{
+    "params": {
+        "local_server": "False",
+        "local_uri":"mysql://root:@localhost/flyhigh",
+        "prod_uri":"mysql://demoT3:Team3Pwd@demo-team3-server.mysql.database.azure.com/flyhigh"
+        
+
+        
+    }
+}
