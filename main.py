@@ -5,7 +5,7 @@ import sklearn
 import pandas as pd
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import asc, desc
-
+import pymysql
 import json
 from datetime import datetime
 
@@ -24,10 +24,10 @@ model = pickle.load(open("models\RandomForest.pkl", "rb"))
 
 
 
-if(params['local_server']):
-    app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
-else:
-    app.config['SQLALCHEMY_DATABASE_URI'] = params['prod_uri']
+#if(params['local_server']):
+#    app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
+#else:
+app.config['SQLALCHEMY_DATABASE_URI'] =f'mysql://demoT3:Team3Pwd@demo-team3-server.mysql.database.azure.com/flyhigh'
     
 
 
