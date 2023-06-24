@@ -1,14 +1,12 @@
 flask
-pickle
 pandas 
 flask_sqlalchemy 
 from sqlalchemy 
-json
+
 datetime
 numpy
 matplotlib
 seaborn
-warnings
 scikit-learn
 scipy
 six
