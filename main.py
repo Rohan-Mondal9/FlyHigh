@@ -992,8 +992,8 @@ def predictr():
                                air= airline,
                                addi=adi,
                                way= "Round Trip",
-                               ans="Your Flight price is Rs. {}".format(output),
-                               Predictive_text="Your Flight price is Rs. {}".format(output)
+                               ans="Your Flight price is Rs. {}".format(t),
+                               Predictive_text="Your Flight price is Rs. {}".format(t)
                                )
 
     return render_template("index.html")
